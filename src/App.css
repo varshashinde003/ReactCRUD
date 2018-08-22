@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.horiz-menu  {
+display: inline-flex;
+}
+
+.horiz-menu a {
+  text-decoration: none !important;
+  background: white !important;
+  margin: 0px 10px;
+}
+
+.MuiMenuItem-root-5 {
+    color: #000 !important;
+}
+
+.tableHeadcss {
+    display: table-cell;
+    padding: 20px !important;
+    color: #000 !important;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+
+  }
+.UpdateEmployee-container-97 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px double #f5f5f6 !important  ;
+    padding: 5px 30px !important;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
